@@ -21,3 +21,22 @@ def multi(n1, n2=3):
 multi(3, 2)
 
 multi(2)
+
+
+def my_dict(**data):  # dict변환 문법
+    print(data)
+    pass
+
+
+my_dict(id=1, username="ssar")
+
+n1 = 1
+
+
+def vartest():
+    global n1
+    n1 = 2
+
+
+vartest()
+print(n1)
